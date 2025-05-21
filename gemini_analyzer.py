@@ -49,7 +49,7 @@ async def analyze_script_with_gemini(script: str, video_title: str, channel_name
             def call_gemini():
                 try:
                     client = genai.Client(api_key=api_key)
-                    model = "gemini-2.5-flash-preview-04-17"  # 최신 모델 사용
+                    model = "gemini-2.5-flash-preview-05-20"  # 최신 모델 사용
                     
                     # Content 객체 생성
                     contents = [
